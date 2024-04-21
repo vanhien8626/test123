@@ -146,9 +146,12 @@
                 </div>
             </div>
         </div>
-    </div>
-   <audio controls autoplay hidden unmuted src="media/Sinh_Nhat.mp3"></audio>
-</body>
+     </div>
+ <audio controls autoplay hidden unmuted>
+    <source src="media/Sinh_Nhat.mp3" type="audio/mpeg">
+</audio>
+
+</body> 
 <script>
     let datetxt = "17 - 05 - 2006";
     let datatxtletter = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit accusamus assumenda sequi nihil cumque beatae quaerat itaque harum non? Dolorem corrupti iusto saepe atque voluptatibus? Iusto mollitia porro labore minima. 💕";
@@ -266,6 +269,6 @@
             fcMobile.timeout("05", document.querySelector(".month"))
         },6000)
     }
-    
+
 </script>
 </html>
